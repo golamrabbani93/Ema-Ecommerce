@@ -13,11 +13,11 @@ const Shop = () => {
 		<div className="shop-container">
 			<div className="product">
 				{products.map((product) => (
-					<Product></Product>
+					<Product key={product.id} product={product}></Product>
 				))}
 			</div>
 			<div className="order-summary">
-				<h2>sumary</h2>
+				<h2>Order Summary</h2>
 			</div>
 		</div>
 	);

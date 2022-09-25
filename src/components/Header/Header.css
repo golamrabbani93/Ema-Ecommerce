@@ -6,6 +6,9 @@
 	align-items: center;
 	padding: 0 110px;
 }
+.logo:hover {
+	cursor: pointer;
+}
 
 .nav-item a {
 	text-decoration: none;
