@@ -1,0 +1,25 @@
+.header {
+	height: 80px;
+	background: #1c2b35;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 110px;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 0.005em;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: #ff9900;
+}
