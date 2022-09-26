@@ -7,7 +7,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 45px;
-	margin: 50px 100px;
+	margin: 50px 50px;
 }
 .order-summary {
 	font-family: 'Lato';
@@ -16,4 +16,6 @@
 	font-size: 25px;
 	line-height: 30px;
 	color: #1c2b35;
+	background: rgba(255, 153, 0, 0.3);
+	padding: 50px;
 }
