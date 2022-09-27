@@ -47,9 +47,14 @@
 	font-size: 15px;
 	line-height: 18px;
 	/* identical to box height */
-
 	letter-spacing: 0.0125em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .btn-cart:hover {
 	background: orange;
+}
+.btn-cart > p {
+	margin-right: 5px;
 }
